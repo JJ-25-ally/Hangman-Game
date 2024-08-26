@@ -5,7 +5,7 @@ import hangman
 import words_list
 lives = 5
 choosen_word = random.choice(words_list.words)
-print(choosen_word)
+#print(choosen_word)
 dash_lines=[]
 for letter in choosen_word:
     dash_lines +='_'
